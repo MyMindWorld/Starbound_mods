@@ -1,0 +1,39 @@
+{
+  "itemName" : "assasinaxe",
+  "price" : 200,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An Axe",
+  "shortdescription" : "Assasin's Axe",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "assasinaxe.png",
+
+  "animation" : "axe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "assasinaxe.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"], 
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 8.5
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua" 
+  
+}

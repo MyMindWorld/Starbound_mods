@@ -1,0 +1,11 @@
+{
+  "name" : "Sword to Stuff",
+  "version" : "0.1",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "author" : "TestTean",
+    "version" : "0.1",
+    "description" : "Test mod 4 weapon"
+  }
+}

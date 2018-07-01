@@ -1,0 +1,11 @@
+{
+  "name" : "Immersive Weapons",
+  "version" : "no matter what",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "author" : "amirmiked12",
+    "version" : "2.1.0",
+    "description" : "It adds many new custom weapons"
+  }
+}
