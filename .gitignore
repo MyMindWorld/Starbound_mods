@@ -1,0 +1,7 @@
+
+*.xml
+<<<<<<< HEAD
+.idea/TiMP.iml
+=======
+*.db
+>>>>>>> testing
