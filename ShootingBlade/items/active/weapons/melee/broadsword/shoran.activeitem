@@ -1,22 +1,22 @@
 {
-  "itemName" : "cleaner",
-  "price" : 1500,
-  "level" : 4,
+  "itemName" : "shoran",
+  "price" : 5000,
+  "level" : 10,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "This legend sword came out of a rock.",
-  "shortdescription" : "Legend Sword",
+  "description" : "This sword can block.",
+  "shortdescription" : "Block Sword",
   "tooltipKind" : "sword",
   "category" : "uniqueWeapon",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
 
-  "inventoryIcon" : "cleaner.png",
+  "inventoryIcon" : "shoran.png",
 
-  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animation" : "/items/active/weapons/melee/broadsword/shoran.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "cleaner.png"
+    "blade" : "shoran.png"
   },
   "animationCustom" : { },
 
@@ -26,8 +26,8 @@
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.83,
-    "baseDps" : 12.5
+    "fireTime" : 1.0,
+    "baseDps" : 12
   },
 
   "altAbilityType" : "parry",

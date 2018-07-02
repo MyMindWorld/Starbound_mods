@@ -1,0 +1,1 @@
+asset_packer.exe C:\Users\VelvetPc\Documents\GitHub\Starbound_mods\SwordToStuff C:\Users\VelvetPc\Documents\GitHub\Starbound_mods\SwordToStuff.pak

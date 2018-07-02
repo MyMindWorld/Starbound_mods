@@ -1,0 +1,11 @@
+{
+  "name" : "ShootingBlade",
+  "version" : "0.1",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "author" : "TestTeam",
+    "version" : "0.1",
+    "description" : "Test mod 4 weapon"
+  }
+}
