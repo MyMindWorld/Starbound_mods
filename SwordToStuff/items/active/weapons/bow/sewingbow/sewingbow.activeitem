@@ -1,13 +1,13 @@
 {
   "itemName" : "sewingbow",
-  "price" : 640,
-  "inventoryIcon" : "sewingbow.png",
+  "price" : 1000,
+  "inventoryIcon" : "sewingbowicon.png",
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "tooltipKind" : "bow",
-  "category" : "uniqueWeapon",
-  "description" : "Harvests meat and other goods from monsters.",
-  "shortdescription" : "Tungsten Hunting Bow",
+  "category" : "bow",
+  "description" : "Sewing Bow",
+  "shortdescription" : "Sewing Bow",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "bow"],
 
@@ -30,7 +30,7 @@
     }
   },
 
- "scripts" : ["/items/active/weapons/bow/bown.lua"],
+ "scripts" : ["/items/active/weapons/bow/bow.lua"],
 
   "primaryAbilityType" : "bowshot",
   "primaryAbility" : {
@@ -42,8 +42,8 @@
     }
   },
 
-  "altAbilityType" : "piercingarrow",
+  "altAbilityType" : "zenshot",
  
 
-  "builder" : "/items/buildscripts/buildbown.lua"
+  "builder" : "/items/buildscripts/buildbow.lua"
 }

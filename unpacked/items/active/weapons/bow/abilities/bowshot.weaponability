@@ -23,7 +23,6 @@
 
     "projectileType" : "woodenarrow",
     "powerProjectileType" : "chargedarrow",
-    "powerProjectileTime" : [0.9, 1.1],
     "projectileParameters" : {
       "speed" : 80,
       "power" : 6.5
