@@ -19,8 +19,9 @@
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
     }
   ],
-  "power" : 20.0,
+  "power" : 25.0,
   "speed" : 150,
   "damageKind" : "standardbullet",
+  "damageKindImage" : "icon.png",
   "statusEffects" : ["l6doomed"]
 }
