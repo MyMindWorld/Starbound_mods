@@ -1,0 +1,26 @@
+{
+  "projectileName" : "piercingbmg",
+  "image" : "piercingbmgbullet.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "piercing" : true,
+  "physics" : "bullet",
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "actionOnCollide" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 20.0,
+  "speed" : 150,
+  "damageKind" : "standardbullet",
+  "statusEffects" : ["l6doomed"]
+}
